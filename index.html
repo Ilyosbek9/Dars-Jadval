@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Table</title>
+        <style>
+            table, th, td{
+                border: 2px solid black;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            h2{
+                margin-left: 30%;
+            }
+            th, td{
+                padding: 10px;
+            }
+            table{
+                width: 70%;
+            }
+            thead{
+                font-size: 20px;
+                background-color: lightgray;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h2>Haftalik Dars Jadvali</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th rowspan="2">Kun</th>
+                        <th colspan="3">Darslar</th>
+                    </tr>
+                    <tr>
+                        <th>1-dars</th>
+                        <th>2-dars</th>
+                        <th>3-dars</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Dushanba</td>
+                        <td>Matematika</td>
+                        <td>Fizika</td>
+                        <td>Ingliz tili</td>
+                    </tr>
+                    <tr>
+                        <td>Seshanba</td>
+                        <td colspan="2">Dasturlash (Python)</td>
+                        <td>Jismoniy tarbiya</td>
+                    </tr>
+                    <tr>
+                        <td>Chorshanba</td>
+                        <td>Kimyo</td>
+                        <td rowspan="2">Tarix</td>
+                        <td>Biologiya</td>
+                    </tr>
+                    <tr>
+                        <td>Payshanba</td>
+                        <td>Geografiya</td>
+                        <td>Adabiyot</td>
+                    </tr>
+                    <tr>
+                        <td>Juma</td>
+                        <td colspan="3">Amaliy mashg'ulot</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
